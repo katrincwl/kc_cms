@@ -4,7 +4,7 @@ var path = require('path');
 
 /* CSS related tasks */
 gulp.task('less', function () {
-  return gulp.src('gulp/kc_bootstrap.less')
+  return gulp.src(['gulp/kc_bootstrap.less','gulp/pace.less'])
     .pipe(less({
       paths: [ path.join(__dirname, 'less', 'includes') ]
     }))
