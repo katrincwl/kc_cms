@@ -66,6 +66,7 @@ e.g [http://localhost/kc_cms/index.php/faker/news](http://localhost/kc_cms/index
 
 ##Admin Panel
 ![Login](/wiki/login.png)
+
 Access the admin panel through 
 http://localhost/kc_cms/index.php/admin
 
@@ -85,7 +86,17 @@ Simply update the theme name to any available Bootswatch theme name
 and recompile the less to css file using gulp command under the project folder in terminal. 
 You may refer to gulpfile.js under the project folder for better understanding.
 
+Cosmo theme:
 
+![Cosmo](/wiki/theme1.png)
+
+Flatly theme:
+
+![Flatly](/wiki/theme2.png)
+
+Journal theme:
+
+![Journal](/wiki/theme3.png)
 
 ##Coding
 
