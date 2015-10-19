@@ -27,10 +27,11 @@ class Home extends MY_Controller {
 		$this->data["meta_description"] = CLIENT_NAME." Homepage";
 		$this->data["meta_keywords"] = CLIENT_NAME.", sport, clothes";
 
-		$this->data['custom_css'] = array('public/css/home/index.css');
+		$this->data['custom_css'] = array('bower_components/owl.carousel/dist/assets/owl.carousel.min.css', 'public/css/home/index.css');
 
 		$this->data['custom_js'] = 
-		array('bottom' => array('bower_components/jssor-slider/js/jssor.player.ytiframe.min.js','bower_components/jssor-slider/js/jssor.slider.mini.js','public/js/home/slider.js'));
+		array('bottom' => array('bower_components/jssor-slider/js/jssor.player.ytiframe.min.js','bower_components/jssor-slider/js/jssor.slider.mini.js',
+						'bower_components/owl.carousel/dist/owl.carousel.min.js','public/js/home/index.js', 'public/js/home/slider.js'));
 		//Render view
 		$this->load->view('partials/header', $this->data);
 		$this->load->view('home', $this->data);

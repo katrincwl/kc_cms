@@ -9,7 +9,7 @@
 
                 background-color: #000; top: 0px; left: 0px;width: 100%; height:100%;">
                 </div>
-                <div style="position: absolute; display: block; background: url(public/img/jssor-img/loading.gif) no-repeat center center;
+                <div style="position: absolute; display: block; background: url(/public/img/jssor-img/loading.gif) no-repeat center center;
 
                 top: 0px; left: 0px;width: 100%;height:100%;">
                 </div>
@@ -20,14 +20,14 @@
             overflow: hidden;">
                 <div>
                     <a href="">
-                        <img u="image" src2="<?php echo base_url('public/img/banner/01.jpg') ?>" />
+                        <img u="image" src2="<?php echo base_url('/public/img/banner/01.jpg') ?>" />
                     </a>
                 </div>
                 <div>
-                    <img u="image" src2="<?php echo base_url('public/img/banner/02.jpg') ?>" />
+                    <img u="image" src2="<?php echo base_url('/public/img/banner/02.jpg') ?>" />
                 </div>
                 <div>
-                    <img u="image" src2="<?php echo base_url('public/img/banner/03.jpg') ?>" />
+                    <img u="image" src2="<?php echo base_url('/public/img/banner/03.jpg') ?>" />
                 </div>
             </div>
             
@@ -50,7 +50,7 @@
                     /* size of bullet elment */
                     width: 16px;
                     height: 16px;
-                    background: url(public/img/jssor-img/b05.png) no-repeat;
+                    background: url(/public/img/jssor-img/b05.png) no-repeat;
                     overflow: hidden;
                     cursor: pointer;
                 }
@@ -85,7 +85,7 @@
                     width: 37px;
                     height: 37px;
                     cursor: pointer;
-                    background: url(public/img/jssor-img/a11.png) no-repeat;
+                    background: url(/public/img/jssor-img/a11.png) no-repeat;
                     overflow: hidden;
                 }
                 .jssora11l { background-position: -11px -41px; }

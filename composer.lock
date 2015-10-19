@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a485efcacbd346b39a6b65abbb03104f",
+    "hash": "5075fec98937372bf97732aa2dc56c2b",
     "packages": [
         {
             "name": "fzaninotto/faker",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "31e2dd76ce734b0f7175de7ab6de3efddc240644"
+                "reference": "f6b2ebd8c462494083bfea6c087f79da36503930"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/5c3fa245495903957df6737347cce04d0919a781",
-                "reference": "31e2dd76ce734b0f7175de7ab6de3efddc240644",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/f6b2ebd8c462494083bfea6c087f79da36503930",
+                "reference": "f6b2ebd8c462494083bfea6c087f79da36503930",
                 "shasum": ""
             },
             "require": {
@@ -54,7 +54,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2015-10-05 12:53:45"
+            "time": "2015-10-19 10:11:20"
         },
         {
             "name": "maximebf/debugbar",

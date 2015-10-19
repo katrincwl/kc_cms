@@ -13,6 +13,7 @@
                     <a href="<?php echo site_url('news'); ?>">Company News</a>
                 </h2>
             </div>
+            <div class="owl-carousel">
             <?php foreach ($newses as $count => $news): ?>
                 <div class="news_item">
                     <h4 class="news_title"><?php echo $news->title; ?></h4>
@@ -27,6 +28,7 @@
                     <hr />
                 <?php endif ?>
             <?php endforeach ?>
+            </div>
         </div>
         <div class="col-md-6">
             <div class="headline">
