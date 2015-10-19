@@ -96,7 +96,7 @@ Flatly theme:
 
 Journal theme:
 
-![Journal](/wiki/jorunal.png)
+![Journal](/wiki/journal.png)
 
 ##Coding
 
