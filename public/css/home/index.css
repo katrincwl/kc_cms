@@ -1,0 +1,35 @@
+.headline {
+    display: block;
+    margin: 10px 0 25px 0;
+    border-bottom: 1px dotted #e4e9f0;
+}
+
+.headline h2{
+	margin: 0 0 -2px 0;
+    padding-bottom: 5px;
+    display: inline-block;
+    border-bottom: 2px solid #72c02c;
+}
+
+.headline a{
+	text-decoration: none;
+	color:black;
+}
+.headline a:hover{
+	text-decoration: none;
+	color:#72c02c;
+}
+
+
+/* News */
+.news_item{
+	margin-bottom:15px;
+}
+.news_publish_date{
+	color: #888;
+    font-size: 12px;
+}
+.news_body{
+	margin-top:5px;
+	margin-bottom:5px;
+}
