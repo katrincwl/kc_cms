@@ -88,15 +88,15 @@ You may refer to gulpfile.js under the project folder for better understanding.
 
 Cosmo theme:
 
-![Cosmo](/wiki/theme1.png)
+![Cosmo](/wiki/cosmo.png)
 
 Flatly theme:
 
-![Flatly](/wiki/theme2.png)
+![Flatly](/wiki/flatly.png)
 
 Journal theme:
 
-![Journal](/wiki/theme3.png)
+![Journal](/wiki/jorunal.png)
 
 ##Coding
 
