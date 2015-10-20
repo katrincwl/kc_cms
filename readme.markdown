@@ -57,7 +57,14 @@ Update the following files to configurate the Database and Project setting
 
 - Go to [http://localhost/kc_cms/index.php/migrate](http://localhost/kc_cms/index.php/migrate) to install the db migration 
 
+##Set ENV
 
+Follow the principle of CodeIgniter 3.0, you can either define your ENV through setting your apache server CI_ENV variable, or by setting in in your .htaccess under project directory.
+Default usage is:
+
+- development
+- testing
+- production
 
 ##Faker data
 
@@ -203,7 +210,6 @@ Final result:
 
 You may refer to [PHP Debug Bar](http://phpdebugbar.com/docs/) for advanced usage.
 
-*To use the above debug method, you may e and render the  *
 
 * * *
 
