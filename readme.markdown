@@ -196,7 +196,10 @@ echo $this->debugbarRenderer->render();
 
 
 Final result:
+
 ![debug](/wiki/debugbar.png)
+
+![debug2](/wiki/debugbar2.png)
 
 You may refer to [PHP Debug Bar](http://phpdebugbar.com/docs/) for advanced usage.
 
