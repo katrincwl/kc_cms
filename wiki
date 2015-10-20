@@ -75,7 +75,7 @@ e.g [http://localhost/kc_cms/index.php/faker/news](http://localhost/kc_cms/index
 
 
 ##Admin Panel
-![Login](/wiki_img/login.png)
+![Login](/wiki/login.png)
 
 Access the admin panel through 
 http://localhost/kc_cms/index.php/admin
@@ -98,15 +98,15 @@ You may refer to gulpfile.js under the project folder for better understanding.
 
 Cosmo theme:
 
-![Cosmo](/wiki_img/cosmo.png)
+![Cosmo](/wiki/cosmo.png)
 
 Flatly theme:
 
-![Flatly](/wiki_img/flatly.png)
+![Flatly](/wiki/flatly.png)
 
 Journal theme:
 
-![Journal](/wiki_img/journal.png)
+![Journal](/wiki/journal.png)
 
 ##Coding
 
@@ -204,9 +204,9 @@ echo $this->debugbarRenderer->render();
 
 Final result:
 
-![debug](/wiki_img/debugbar.png)
+![debug](/wiki/debugbar.png)
 
-![debug2](/wiki_img/debugbar2.png)
+![debug2](/wiki/debugbar2.png)
 
 You may refer to [PHP Debug Bar](http://phpdebugbar.com/docs/) for advanced usage.
 
