@@ -27,21 +27,24 @@ Clone the project into your project directory
 
 **git clone https://katrincwl@bitbucket.org/katrincwl/kc_cms.git**
 
+Install relavant package on project directory:
+**composer install**
 
 ##Configuration
 
 Update the following files to configurate the Database and Project setting
 
-/application/config/config.php
-/application/config/database.php
-/application/config/constant.php
-.htaccess
+- /application/config/config.php
+- /application/config/database.php
+- /application/config/constant.php
+- .htaccess
 
 
 
 ##Database migration
 
-- Run /application/sql/*.sql to your mysql db
+- Run /application/sql/*.sql to your mysql db 
+(For other db driver, please refer to https://www.codeigniter.com/user_guide/libraries/sessions.html#database-driver)
 ```sql
 	CREATE TABLE IF NOT EXISTS `ci_sessions` (
         `id` varchar(40) NOT NULL,
@@ -142,6 +145,62 @@ Avaliable options are as follows:
     - If og:description is not defined, it will try to use meta description value, unless meta description is also empty.
 *
 
+###PHP Debugbar
+PHP Debugbar support is added on KC CMS, in order to use it.
+
+**Simple Way**
+*(This feature is turned on automatically on development environment)*
+
+1. Extends your controller with MY_Controller/Admin_Controller
+2. Add your deubg message as following in controller function:
+
+```php
+    $this->debugbar['messages']->addMessage($anything);
+```
+
+3. Wrap your page content with the correspodning header and footer partials views:
+
+```php
+    //For MY_Controller
+    $this->load->view('partials/header');
+    $this->load->view('your_content_view');
+    $this->load->view('partials/footer');
+```
+
+```php
+    //For Admin_Controller
+    $this->load->view('partials/admin_header');
+    $this->load->view('your_content_view');
+    $this->load->view('partials/admin_footer');
+```
+
+**Advanced way**
+
+If you would like to use your own Controller and own header/footer view, you may choose this way to config your debug bar.
+
+In your controller, add:
+```use DebugBar\StandardDebugBar;```
+```php
+$this->debugbar = new StandardDebugBar();
+$this->debugbarRenderer = $this->debugbar->getJavascriptRenderer();
+```
+
+In your View, add:
+```php
+//Include related css and js files
+include_once APPPATH.'views/partials/debugbar_resources.php';   
+
+//Render the debug-bar
+echo $this->debugbarRenderer->render(); 
+```
+
+
+Final result:
+![debug](/wiki/debugbar.png)
+
+You may refer to [PHP Debug Bar](http://phpdebugbar.com/docs/) for advanced usage.
+
+*To use the above debug method, you may e and render the  *
 
 * * *
 
