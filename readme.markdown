@@ -15,8 +15,10 @@ It should work on 5.2.4 as well, but it is not recommended.
 Clone the project into your project directory
 
 **git clone https://github.com/katrincwl/kc_cms**
+
 or
-**git clone https://katrincwl@bitbucket.org/katrincwl/kc_cms.git**
+
+**git clone https://bitbucket.org/katrincwl/kc_cms.git**
 
 Install relavant package on project directory:
 **composer install**
