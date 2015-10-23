@@ -1,7 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-require_once '/vendor/fzaninotto/faker/src/autoload.php';
-
+defined('BASEPATH') OR exit('No direct script access allowed'); 
 /**
  * Author: Mark
  */
