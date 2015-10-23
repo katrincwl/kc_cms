@@ -25,7 +25,6 @@
                     </div>
                 </div>
                 <?php if ($count < sizeof($newses) - 1): ?>
-                    <hr />
                 <?php endif ?>
             <?php endforeach ?>
             </div>
